@@ -1,1 +1,1 @@
-Projetos em Python.
+Projetos de automação em Python.

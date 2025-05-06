@@ -21,10 +21,10 @@ server.starttls()
 
 try:
     server.login(sender, password)
-    print("logged-in")
+    print("logado!")
 
     server.sendmail(sender, receiver, message)
-    print("Email sent!")
+    print("Email enviado!")
 
 except smtplib.SMTPAuthenticationError:
     print("Não foi possivel logar!")
